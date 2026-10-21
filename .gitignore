@@ -1,0 +1,18 @@
+# CLion / CMake build output
+cmake-build-*/
+build/
+
+# CLion project settings
+.idea/
+
+# Binaries compiled by hand in the project root
+/server
+/client
+*.dSYM/
+
+# Compiled objects
+*.o
+*.out
+
+# macOS
+.DS_Store
