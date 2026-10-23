@@ -120,8 +120,10 @@ int main() {
             }
         }
 
-        close(fd);
+        close(connfd);
     }
+
+    close(fd);
 
     return 0;
 }
